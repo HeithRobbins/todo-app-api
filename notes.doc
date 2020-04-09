@@ -1,0 +1,7 @@
+when installing psycog1-binary do it with the pipenv install
+
+after that you now need to create your tables again becuase 
+
+from app import db (make sure you in the python shell)
+
+after that do db.create_all()
